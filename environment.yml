@@ -1,0 +1,11 @@
+name: booster-teleop
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - opencv-python
+      - mediapipe
+      - numpy
+
