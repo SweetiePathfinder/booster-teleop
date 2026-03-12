@@ -1,0 +1,3 @@
+[console_scripts]
+arm_sine_test = booster_teleop.arm_sine_test_node:main
+

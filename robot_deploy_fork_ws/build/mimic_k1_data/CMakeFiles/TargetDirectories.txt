@@ -1,9 +1,0 @@
-/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/build/mimic_k1_data/CMakeFiles/uninstall.dir
-/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/build/mimic_k1_data/CMakeFiles/mimic_k1_data_uninstall.dir
-/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/build/mimic_k1_data/CMakeFiles/test.dir
-/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/build/mimic_k1_data/CMakeFiles/edit_cache.dir
-/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/build/mimic_k1_data/CMakeFiles/rebuild_cache.dir
-/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/build/mimic_k1_data/CMakeFiles/list_install_components.dir
-/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/build/mimic_k1_data/CMakeFiles/install.dir
-/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/build/mimic_k1_data/CMakeFiles/install/local.dir
-/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/build/mimic_k1_data/CMakeFiles/install/strip.dir

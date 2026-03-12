@@ -1,6 +1,0 @@
-source;share/mujoco_robot_emulator/hook/pythonpath.ps1
-source;share/mujoco_robot_emulator/hook/pythonpath.dsv
-source;share/mujoco_robot_emulator/hook/pythonpath.sh
-source;share/mujoco_robot_emulator/hook/ament_prefix_path.ps1
-source;share/mujoco_robot_emulator/hook/ament_prefix_path.dsv
-source;share/mujoco_robot_emulator/hook/ament_prefix_path.sh

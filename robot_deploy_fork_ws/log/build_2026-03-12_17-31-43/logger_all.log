@@ -1,0 +1,303 @@
+[0.067s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.067s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x74a9ccda97b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x74a9ccda91b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x74a9ccda91b0>>, mixin_verb=('build',))
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.177s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci) by extension 'colcon_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci) by extensions ['colcon_meta']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci) by extension 'colcon_meta'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci) by extensions ['ros']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci) by extension 'ros'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci) by extensions ['cmake', 'python']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci) by extension 'cmake'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci) by extension 'python'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci) by extensions ['python_setup_py']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci) by extension 'python_setup_py'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/booster_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/booster_controller) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/booster_controller) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/booster_controller) by extensions ['colcon_pkg']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/booster_controller) by extension 'colcon_pkg'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/booster_controller) by extensions ['colcon_meta']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/booster_controller) by extension 'colcon_meta'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/booster_controller) by extensions ['ros']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/booster_controller) by extension 'ros'
+[0.187s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_launcher_gucci/booster_controller' with type 'ros.ament_cmake' and name 'booster_controller'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/booster_policies) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/booster_policies) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/booster_policies) by extension 'ignore_ament_install'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/booster_policies) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/booster_policies) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/booster_policies) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/booster_policies) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/booster_policies) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/booster_policies) by extension 'ros'
+[0.189s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_launcher_gucci/booster_policies' with type 'ros.ament_cmake' and name 'booster_policies'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/booster_ros2_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/booster_ros2_interface) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/booster_ros2_interface) by extension 'ignore_ament_install'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/booster_ros2_interface) by extensions ['colcon_pkg']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/booster_ros2_interface) by extension 'colcon_pkg'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/booster_ros2_interface) by extensions ['colcon_meta']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/booster_ros2_interface) by extension 'colcon_meta'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/booster_ros2_interface) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/booster_ros2_interface) by extension 'ros'
+[0.189s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_launcher_gucci/booster_ros2_interface' with type 'ros.ament_cmake' and name 'booster_interface'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/booster_teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/booster_teleop) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/booster_teleop) by extension 'ignore_ament_install'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/booster_teleop) by extensions ['colcon_pkg']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/booster_teleop) by extension 'colcon_pkg'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/booster_teleop) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/booster_teleop) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/booster_teleop) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/booster_teleop) by extension 'ros'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/booster_teleop) by extensions ['cmake', 'python']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/booster_teleop) by extension 'cmake'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/booster_teleop) by extension 'python'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/booster_teleop) by extensions ['python_setup_py']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/booster_teleop) by extension 'python_setup_py'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/booster_teleop/booster_teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/booster_teleop/booster_teleop) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/booster_teleop/booster_teleop) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/booster_teleop/booster_teleop) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/booster_teleop/booster_teleop) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/booster_teleop/booster_teleop) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/booster_teleop/booster_teleop) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/booster_teleop/booster_teleop) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/booster_teleop/booster_teleop) by extension 'ros'
+[0.190s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_launcher_gucci/booster_teleop/booster_teleop' with type 'ros.ament_python' and name 'booster_teleop'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/mimic_k1_data) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/mimic_k1_data) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/mimic_k1_data) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/mimic_k1_data) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/mimic_k1_data) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/mimic_k1_data) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/mimic_k1_data) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/mimic_k1_data) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/mimic_k1_data) by extension 'ros'
+[0.191s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_launcher_gucci/mimic_k1_data' with type 'ros.ament_cmake' and name 'mimic_k1_data'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/mujoco_robot_emulator) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/mujoco_robot_emulator) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/mujoco_robot_emulator) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/mujoco_robot_emulator) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/mujoco_robot_emulator) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/mujoco_robot_emulator) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/mujoco_robot_emulator) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/mujoco_robot_emulator) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/mujoco_robot_emulator) by extension 'ros'
+[0.191s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_launcher_gucci/mujoco_robot_emulator' with type 'ros.ament_python' and name 'mujoco_robot_emulator'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/robot_launcher) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/robot_launcher) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/robot_launcher) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/robot_launcher) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/robot_launcher) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/robot_launcher) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/robot_launcher) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/robot_launcher) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launcher_gucci/robot_launcher) by extension 'ros'
+[0.192s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_launcher_gucci/robot_launcher' with type 'ros.ament_cmake' and name 'robot_launcher'
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.205s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 272 installed packages in /opt/ros/humble
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'booster_interface' build argument 'cmake_args' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'booster_interface' build argument 'cmake_target' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'booster_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'booster_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'booster_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'booster_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'booster_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'booster_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'booster_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.225s] DEBUG:colcon.colcon_core.verb:Building package 'booster_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/build/booster_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_interface', 'merge_install': False, 'path': '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/src/robot_launcher_gucci/booster_ros2_interface', 'symlink_install': False, 'test_result_base': None}
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'booster_teleop' build argument 'cmake_args' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'booster_teleop' build argument 'cmake_target' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'booster_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'booster_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'booster_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'booster_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'booster_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'booster_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'booster_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.225s] DEBUG:colcon.colcon_core.verb:Building package 'booster_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/build/booster_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_teleop', 'merge_install': False, 'path': '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/src/robot_launcher_gucci/booster_teleop/booster_teleop', 'symlink_install': False, 'test_result_base': None}
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'mimic_k1_data' build argument 'cmake_args' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'mimic_k1_data' build argument 'cmake_target' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'mimic_k1_data' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'mimic_k1_data' build argument 'cmake_clean_cache' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'mimic_k1_data' build argument 'cmake_clean_first' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'mimic_k1_data' build argument 'cmake_force_configure' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'mimic_k1_data' build argument 'ament_cmake_args' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'mimic_k1_data' build argument 'catkin_cmake_args' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'mimic_k1_data' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.225s] DEBUG:colcon.colcon_core.verb:Building package 'mimic_k1_data' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/build/mimic_k1_data', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/mimic_k1_data', 'merge_install': False, 'path': '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/src/robot_launcher_gucci/mimic_k1_data', 'symlink_install': False, 'test_result_base': None}
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'robot_launcher' build argument 'cmake_args' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'robot_launcher' build argument 'cmake_target' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'robot_launcher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'robot_launcher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'robot_launcher' build argument 'cmake_clean_first' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'robot_launcher' build argument 'cmake_force_configure' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'robot_launcher' build argument 'ament_cmake_args' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'robot_launcher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'robot_launcher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.225s] DEBUG:colcon.colcon_core.verb:Building package 'robot_launcher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/build/robot_launcher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/robot_launcher', 'merge_install': False, 'path': '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/src/robot_launcher_gucci/robot_launcher', 'symlink_install': False, 'test_result_base': None}
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'booster_controller' build argument 'cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'booster_controller' build argument 'cmake_target' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'booster_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'booster_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'booster_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'booster_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'booster_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'booster_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'booster_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.226s] DEBUG:colcon.colcon_core.verb:Building package 'booster_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/build/booster_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_controller', 'merge_install': False, 'path': '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/src/robot_launcher_gucci/booster_controller', 'symlink_install': False, 'test_result_base': None}
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'booster_policies' build argument 'cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'booster_policies' build argument 'cmake_target' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'booster_policies' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'booster_policies' build argument 'cmake_clean_cache' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'booster_policies' build argument 'cmake_clean_first' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'booster_policies' build argument 'cmake_force_configure' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'booster_policies' build argument 'ament_cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'booster_policies' build argument 'catkin_cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'booster_policies' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.226s] DEBUG:colcon.colcon_core.verb:Building package 'booster_policies' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/build/booster_policies', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_policies', 'merge_install': False, 'path': '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/src/robot_launcher_gucci/booster_policies', 'symlink_install': False, 'test_result_base': None}
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'mujoco_robot_emulator' build argument 'cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'mujoco_robot_emulator' build argument 'cmake_target' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'mujoco_robot_emulator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'mujoco_robot_emulator' build argument 'cmake_clean_cache' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'mujoco_robot_emulator' build argument 'cmake_clean_first' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'mujoco_robot_emulator' build argument 'cmake_force_configure' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'mujoco_robot_emulator' build argument 'ament_cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'mujoco_robot_emulator' build argument 'catkin_cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'mujoco_robot_emulator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.226s] DEBUG:colcon.colcon_core.verb:Building package 'mujoco_robot_emulator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/build/mujoco_robot_emulator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/mujoco_robot_emulator', 'merge_install': False, 'path': '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/src/robot_launcher_gucci/mujoco_robot_emulator', 'symlink_install': False, 'test_result_base': None}
+[0.226s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.227s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.227s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/src/robot_launcher_gucci/booster_ros2_interface' with build type 'ament_cmake'
+[0.227s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/src/robot_launcher_gucci/booster_ros2_interface'
+[0.229s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.229s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.229s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.231s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/src/robot_launcher_gucci/booster_teleop/booster_teleop' with build type 'ament_python'
+[0.231s] Level 1:colcon.colcon_core.shell:create_environment_hook('booster_teleop', 'ament_prefix_path')
+[0.231s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_teleop/share/booster_teleop/hook/ament_prefix_path.ps1'
+[0.231s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_teleop/share/booster_teleop/hook/ament_prefix_path.dsv'
+[0.231s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_teleop/share/booster_teleop/hook/ament_prefix_path.sh'
+[0.232s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.232s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.233s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/src/robot_launcher_gucci/mimic_k1_data' with build type 'ament_cmake'
+[0.233s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/src/robot_launcher_gucci/mimic_k1_data'
+[0.234s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.234s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.235s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/src/robot_launcher_gucci/robot_launcher' with build type 'ament_cmake'
+[0.235s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/src/robot_launcher_gucci/robot_launcher'
+[0.235s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.235s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.240s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/build/booster_interface': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/src/robot_launcher_gucci/booster_ros2_interface -DCMAKE_INSTALL_PREFIX=/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_interface
+[0.410s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/src/robot_launcher_gucci/booster_teleop/booster_teleop'
+[0.410s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.410s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.416s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/build/mimic_k1_data': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/src/robot_launcher_gucci/mimic_k1_data -DCMAKE_INSTALL_PREFIX=/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/mimic_k1_data
+[0.419s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/build/robot_launcher': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/src/robot_launcher_gucci/robot_launcher -DCMAKE_INSTALL_PREFIX=/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/robot_launcher
+[0.671s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/src/robot_launcher_gucci/booster_teleop/booster_teleop': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/build/booster_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/booster_teleop build --build-base /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/build/booster_teleop/build install --record /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/build/booster_teleop/install.log --single-version-externally-managed install_data
+[0.876s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/src/robot_launcher_gucci/booster_teleop/booster_teleop' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/build/booster_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/booster_teleop build --build-base /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/build/booster_teleop/build install --record /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/build/booster_teleop/install.log --single-version-externally-managed install_data
+[0.878s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_teleop' for CMake module files
+[0.878s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_teleop' for CMake config files
+[0.879s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_teleop/lib'
+[0.879s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_teleop/bin'
+[0.879s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_teleop/lib/pkgconfig/booster_teleop.pc'
+[0.879s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_teleop/lib/python3.10/site-packages'
+[0.880s] Level 1:colcon.colcon_core.shell:create_environment_hook('booster_teleop', 'pythonpath')
+[0.880s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_teleop/share/booster_teleop/hook/pythonpath.ps1'
+[0.880s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_teleop/share/booster_teleop/hook/pythonpath.dsv'
+[0.881s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_teleop/share/booster_teleop/hook/pythonpath.sh'
+[0.881s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_teleop/bin'
+[0.881s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(booster_teleop)
+[0.882s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_teleop/share/booster_teleop/package.ps1'
+[0.882s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_teleop/share/booster_teleop/package.dsv'
+[0.883s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_teleop/share/booster_teleop/package.sh'
+[0.884s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_teleop/share/booster_teleop/package.bash'
+[0.884s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_teleop/share/booster_teleop/package.zsh'
+[0.885s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_teleop/share/colcon-core/packages/booster_teleop)
+[1.029s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/build/mimic_k1_data' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/src/robot_launcher_gucci/mimic_k1_data -DCMAKE_INSTALL_PREFIX=/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/mimic_k1_data
+[1.040s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mimic_k1_data)
+[1.040s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/mimic_k1_data' for CMake module files
+[1.041s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/mimic_k1_data' for CMake config files
+[1.041s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/mimic_k1_data/bin'
+[1.041s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/mimic_k1_data/lib/pkgconfig/mimic_k1_data.pc'
+[1.041s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/mimic_k1_data/lib/python3.10/site-packages'
+[1.041s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/mimic_k1_data/bin'
+[1.041s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/mimic_k1_data/share/mimic_k1_data/package.ps1'
+[1.042s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/mimic_k1_data/share/mimic_k1_data/package.dsv'
+[1.043s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/mimic_k1_data/share/mimic_k1_data/package.sh'
+[1.044s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/mimic_k1_data/share/mimic_k1_data/package.bash'
+[1.044s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/mimic_k1_data/share/mimic_k1_data/package.zsh'
+[1.044s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/mimic_k1_data/share/colcon-core/packages/mimic_k1_data)
+[1.299s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.299s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.299s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[1.299s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.302s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.302s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.302s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.318s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.318s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/local_setup.ps1'
+[1.319s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/_local_setup_util_ps1.py'
+[1.320s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/setup.ps1'
+[1.321s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/local_setup.sh'
+[1.322s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/_local_setup_util_sh.py'
+[1.322s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/setup.sh'
+[1.323s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/local_setup.bash'
+[1.323s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/setup.bash'
+[1.323s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/local_setup.zsh'
+[1.324s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/setup.zsh'
