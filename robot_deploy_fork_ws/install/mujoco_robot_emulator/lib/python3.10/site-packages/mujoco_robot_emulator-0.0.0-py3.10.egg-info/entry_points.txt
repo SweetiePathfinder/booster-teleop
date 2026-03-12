@@ -1,0 +1,3 @@
+[console_scripts]
+node = mujoco_robot_emulator.node:main
+

@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-d02429ec6cf9aac17897.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "booster_interface__py",
+					"jsonFile" : "directory-booster_interface__py-bf9cae190425cb9a722f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/build/booster_interface/booster_interface__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "booster_interface",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_booster_interface_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_booster_interface_egg-5eb0d65491697590bd8c.json",
+					"name" : "ament_cmake_python_build_booster_interface_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_booster_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_booster_interface-82985cacc13356c8b22c.json",
+					"name" : "ament_cmake_python_copy_booster_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "booster_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-booster_interface-ac2117ba58261230cc7c.json",
+					"name" : "booster_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "booster_interface__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-booster_interface__cpp-b98d5a97adaa82b5da43.json",
+					"name" : "booster_interface__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "booster_interface__py::@3517d1aa6cd5a7c8e020",
+					"jsonFile" : "target-booster_interface__py-2ea93b5e90fb0b2064a8.json",
+					"name" : "booster_interface__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "booster_interface__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-booster_interface__rosidl_generator_c-4c4a3fd0934dc2559e14.json",
+					"name" : "booster_interface__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "booster_interface__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-booster_interface__rosidl_generator_py-439bd90240587fa1784e.json",
+					"name" : "booster_interface__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "booster_interface__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-booster_interface__rosidl_typesupport_c-a9330e75acf23597428d.json",
+					"name" : "booster_interface__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "booster_interface__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-booster_interface__rosidl_typesupport_c__pyext-8e1db77d4588c1eefd69.json",
+					"name" : "booster_interface__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "booster_interface__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-booster_interface__rosidl_typesupport_cpp-b8427a5de38ac116b61a.json",
+					"name" : "booster_interface__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "booster_interface__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-booster_interface__rosidl_typesupport_fastrtps_c-d8b3796c12eea854324b.json",
+					"name" : "booster_interface__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "booster_interface__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-booster_interface__rosidl_typesupport_fastrtps_c__pyext-8bc921f1d7d49901dc42.json",
+					"name" : "booster_interface__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "booster_interface__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-booster_interface__rosidl_typesupport_fastrtps_cpp-3b205daf62020c7f117c.json",
+					"name" : "booster_interface__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "booster_interface__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-booster_interface__rosidl_typesupport_introspection_c-a20fa2edf64a39747375.json",
+					"name" : "booster_interface__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "booster_interface__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-booster_interface__rosidl_typesupport_introspection_c__pyext-9f2329653ce278b6d178.json",
+					"name" : "booster_interface__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "booster_interface__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-booster_interface__rosidl_typesupport_introspection_cpp-405a4066e5f53e32d112.json",
+					"name" : "booster_interface__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "booster_interface_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-booster_interface_uninstall-6b48941d2a9f31561aa3.json",
+					"name" : "booster_interface_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-95027a2759e8cd184e63.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/build/booster_interface",
+		"source" : "/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/src/robot_launcher_gucci/booster_ros2_interface"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

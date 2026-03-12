@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>booster_controller</name>
+  <version>0.1.0</version>
+  <description>ROS 2 C++ RL controller node for Booster robots</description>
+
+  <maintainer email="shargin.ia@phystech.edu">Ivan Shargin</maintainer>
+  <license>Apache-2.0</license>
+
+  <!-- Build tool -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Runtime dependencies -->
+  <depend>rclcpp</depend>
+  <depend>booster_interface</depend>
+
+  <!-- Test dependencies -->
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

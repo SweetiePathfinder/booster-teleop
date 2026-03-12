@@ -1,0 +1,13 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/booster_squat_agent_node.dir/src/booster_policy_node.cpp.o"
+  "CMakeFiles/booster_squat_agent_node.dir/src/booster_policy_node.cpp.o.d"
+  "CMakeFiles/booster_squat_agent_node.dir/src/squat_agent_node.cpp.o"
+  "CMakeFiles/booster_squat_agent_node.dir/src/squat_agent_node.cpp.o.d"
+  "booster_squat_agent_node"
+  "booster_squat_agent_node.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/booster_squat_agent_node.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

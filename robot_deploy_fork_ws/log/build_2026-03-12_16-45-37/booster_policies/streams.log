@@ -1,0 +1,102 @@
+[0.007s] Invoking command in '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/build/booster_policies': AMENT_PREFIX_PATH=/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_interface:/opt/ros/humble CONDA_PROMPT_MODIFIER=(robot_deploy) LD_LIBRARY_PATH=/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/src/robot_launcher_gucci/booster_policies -DCMAKE_INSTALL_PREFIX=/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_policies
+[0.054s] -- The CXX compiler identification is GNU 11.4.0
+[0.058s] -- Detecting CXX compiler ABI info
+[0.110s] -- Detecting CXX compiler ABI info - done
+[0.114s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.114s] -- Detecting CXX compile features
+[0.114s] -- Detecting CXX compile features - done
+[0.115s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.359s] -- Found Python3: /home/pathfinder/anaconda3/envs/robot_deploy/bin/python3 (found version "3.10.19") found components: Interpreter 
+[0.417s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[0.440s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.442s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.447s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.453s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.462s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.485s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.486s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.541s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.563s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.590s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.594s] -- Looking for C++ include pthread.h
+[0.648s] -- Looking for C++ include pthread.h - found
+[0.648s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.707s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.708s] -- Found Threads: TRUE  
+[0.736s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.742s] -- Found booster_interface: 0.0.0 (/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_interface/share/booster_interface/cmake)
+[0.805s] -- Configuring done
+[0.810s] [33mCMake Warning at CMakeLists.txt:60 (add_executable):
+[0.810s]   Cannot generate a safe runtime search path for target booster_rl_agent_node
+[0.810s]   because files in some directories may conflict with libraries in implicit
+[0.810s]   directories:
+[0.810s] 
+[0.810s]     runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[0.810s]       /home/pathfinder/anaconda3/envs/robot_deploy/lib
+[0.810s] 
+[0.810s]   Some of these libraries may not be found correctly.
+[0.810s] 
+[0.810s] [0m
+[0.812s] [33mCMake Warning at CMakeLists.txt:63 (add_executable):
+[0.812s]   Cannot generate a safe runtime search path for target
+[0.812s]   booster_squat_agent_node because files in some directories may conflict
+[0.812s]   with libraries in implicit directories:
+[0.812s] 
+[0.812s]     runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[0.812s]       /home/pathfinder/anaconda3/envs/robot_deploy/lib
+[0.812s] 
+[0.812s]   Some of these libraries may not be found correctly.
+[0.812s] 
+[0.812s] [0m
+[0.812s] -- Generating done
+[0.815s] -- Build files have been written to: /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/build/booster_policies
+[0.820s] Invoked command in '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/build/booster_policies' returned '0': AMENT_PREFIX_PATH=/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_interface:/opt/ros/humble CONDA_PROMPT_MODIFIER=(robot_deploy) LD_LIBRARY_PATH=/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/src/robot_launcher_gucci/booster_policies -DCMAKE_INSTALL_PREFIX=/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_policies
+[0.821s] Invoking command in '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/build/booster_policies': AMENT_PREFIX_PATH=/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_interface:/opt/ros/humble CONDA_PROMPT_MODIFIER=(robot_deploy) LD_LIBRARY_PATH=/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/build/booster_policies -- -j20 -l20
+[0.854s] [ 33%] [32mBuilding CXX object CMakeFiles/booster_rl_agent_node.dir/src/booster_policy_node.cpp.o[0m
+[0.854s] [ 33%] [32mBuilding CXX object CMakeFiles/booster_squat_agent_node.dir/src/booster_policy_node.cpp.o[0m
+[0.854s] [ 50%] [32mBuilding CXX object CMakeFiles/booster_rl_agent_node.dir/src/booster_rl_agent_node.cpp.o[0m
+[0.855s] [ 66%] [32mBuilding CXX object CMakeFiles/booster_squat_agent_node.dir/src/squat_agent_node.cpp.o[0m
+[7.355s] [ 83%] [32m[1mLinking CXX executable booster_rl_agent_node[0m
+[7.433s] [100%] [32m[1mLinking CXX executable booster_squat_agent_node[0m
+[7.684s] [100%] Built target booster_rl_agent_node
+[7.759s] [100%] Built target booster_squat_agent_node
+[7.765s] Invoked command in '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/build/booster_policies' returned '0': AMENT_PREFIX_PATH=/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_interface:/opt/ros/humble CONDA_PROMPT_MODIFIER=(robot_deploy) LD_LIBRARY_PATH=/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/build/booster_policies -- -j20 -l20
+[7.767s] Invoking command in '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/build/booster_policies': AMENT_PREFIX_PATH=/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_interface:/opt/ros/humble CONDA_PROMPT_MODIFIER=(robot_deploy) LD_LIBRARY_PATH=/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/build/booster_policies
+[7.772s] -- Install configuration: ""
+[7.772s] -- Installing: /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_policies/lib/booster_policies/booster_rl_agent_node
+[7.775s] -- Set runtime path of "/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_policies/lib/booster_policies/booster_rl_agent_node" to ""
+[7.775s] -- Installing: /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_policies/lib/booster_policies/booster_squat_agent_node
+[7.777s] -- Set runtime path of "/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_policies/lib/booster_policies/booster_squat_agent_node" to ""
+[7.777s] -- Installing: /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_policies/share/booster_policies/weights
+[7.777s] -- Installing: /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_policies/share/booster_policies/weights/model_3400.onnx
+[7.777s] -- Installing: /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_policies/share/booster_policies/weights/model_squat.onnx
+[7.777s] -- Installing: /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_policies/share/booster_policies/weights/squat_2100.onnx
+[7.778s] -- Installing: /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_policies/share/booster_policies/weights/model_700.onnx
+[7.778s] -- Installing: /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_policies/share/booster_policies/weights/K1_model4300_scaled_rewards.onnx
+[7.778s] -- Installing: /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_policies/share/booster_policies/weights/best_run1_10000.onnx
+[7.778s] -- Installing: /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_policies/share/booster_policies/weights/squat_1600.onnx
+[7.778s] -- Installing: /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_policies/share/booster_policies/weights/symmetric_mirror_loss.onnx
+[7.778s] -- Installing: /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_policies/share/booster_policies/weights/best_run1_simmetric_10000.onnx
+[7.778s] -- Installing: /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_policies/share/booster_policies/weights/k1_low_foot.onnx
+[7.778s] -- Installing: /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_policies/share/booster_policies/config
+[7.778s] -- Installing: /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_policies/share/booster_policies/config/squat_agent_params.yaml
+[7.779s] -- Installing: /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_policies/share/booster_policies/config/rl_agent_params.yaml
+[7.779s] -- Installing: /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_policies/share/booster_policies/trajectories
+[7.779s] -- Installing: /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_policies/share/booster_policies/trajectories/squat.json
+[7.779s] -- Installing: /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_policies/share/booster_policies/trajectories/README.md
+[7.779s] -- Installing: /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_policies/share/ament_index/resource_index/package_run_dependencies/booster_policies
+[7.779s] -- Installing: /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_policies/share/ament_index/resource_index/parent_prefix_path/booster_policies
+[7.779s] -- Installing: /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_policies/share/booster_policies/environment/ament_prefix_path.sh
+[7.779s] -- Installing: /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_policies/share/booster_policies/environment/ament_prefix_path.dsv
+[7.779s] -- Installing: /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_policies/share/booster_policies/environment/path.sh
+[7.779s] -- Installing: /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_policies/share/booster_policies/environment/path.dsv
+[7.779s] -- Installing: /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_policies/share/booster_policies/local_setup.bash
+[7.779s] -- Installing: /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_policies/share/booster_policies/local_setup.sh
+[7.779s] -- Installing: /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_policies/share/booster_policies/local_setup.zsh
+[7.779s] -- Installing: /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_policies/share/booster_policies/local_setup.dsv
+[7.780s] -- Installing: /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_policies/share/booster_policies/package.dsv
+[7.780s] -- Installing: /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_policies/share/ament_index/resource_index/packages/booster_policies
+[7.780s] -- Installing: /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_policies/share/booster_policies/cmake/booster_policiesConfig.cmake
+[7.780s] -- Installing: /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_policies/share/booster_policies/cmake/booster_policiesConfig-version.cmake
+[7.780s] -- Installing: /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_policies/share/booster_policies/package.xml
+[7.781s] Invoked command in '/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/build/booster_policies' returned '0': AMENT_PREFIX_PATH=/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_interface:/opt/ros/humble CONDA_PROMPT_MODIFIER=(robot_deploy) LD_LIBRARY_PATH=/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/build/booster_policies

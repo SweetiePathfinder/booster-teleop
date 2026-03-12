@@ -1,0 +1,80 @@
+env_name: "deepmimic"
+
+env:
+    char_file: "data/assets/K1/K1_serial.xml"
+    camera_mode: "still"
+
+    episode_length: 10.0 # seconds
+    global_obs: False
+    root_height_obs: False
+    pose_termination: True
+    pose_termination_dist: 1.0 # m
+    enable_phase_obs: False
+    enable_tar_obs: True
+    num_phase_encoding: 4
+    tar_obs_steps: [1, 2, 3]
+    num_disc_obs_steps: 1
+    rand_reset: True
+    zero_center_action: True
+    log_tracking_error: True
+
+    ref_char_offset: [2.0, 0.0, 0.0] # m
+    init_pose: [0.,0.,0., 0.,0.,0. ,0.,0.,0.,-1.52,0.,0.,0.,1.52,0.,0.,0.,0.,0.,0.,0.,0.,0.,0.,0.,0.,0.,0.]
+
+    enable_early_termination: True
+    termination_height: 0.3
+    key_bodies: ["left_foot_link", "right_foot_link", "Head_2", "left_hand_link", "right_hand_link"]
+    contact_bodies: ["Left_Shank", "Left_Ankle_Cross", "left_foot_link", "Right_Shank", "Right_Ankle_Cross", "right_foot_link"]
+    #contact_bodies: ["left_knee_link", "left_ankle_pitch_link", "left_ankle_roll_link", "right_knee_link", "right_ankle_pitch_link", "right_ankle_roll_link", "left_elbow_link", "left_wrist_roll_link", "left_wrist_pitch_link", "left_wrist_yaw_link", "right_elbow_link", "right_wrist_roll_link", "right_wrist_pitch_link", "right_wrist_yaw_link"] # cartwheel
+    
+    motion_file: "data/motions/k1/look_around_resaved_mimic.pkl"
+
+    joint_err_w: [0.0, 0.0, 1.0, 1.0, 1.0, 0.6, 1.0, 1.0, 1.0, 0.6, 1.0, 1.0, 1.0, 1.0, 0.6, 0.5, 1.0, 1.0, 1.0, 1.0, 0.6, 0.5]
+
+    reward_pose_w: 0.5
+    reward_vel_w: 0.1
+    reward_root_pose_w: 0.15
+    reward_root_vel_w: 0.1
+    reward_key_pos_w: 0.15
+
+    reward_pose_scale: 0.25
+    reward_vel_scale: 0.01
+    reward_root_pose_scale: 5.0
+    reward_root_vel_scale: 1.0
+    reward_key_pos_scale: 10.0
+
+
+engine:
+    engine_name: "isaac_gym"
+    
+    control_mode: "pos"
+    control_freq: 30
+    sim_freq: 60
+    sim_substeps: 2 # 120 Hz
+    env_spacing: 5
+
+# sim2sim:
+#     mujoco_file: "data/assets/K1/K1_serial_mujoco.xml"
+#     # Physics timestep for MuJoCo-based sim2sim (seconds)
+#     sim_dt: 0.002
+#     # PD gains per actuator DOF (match the actuator order in the MuJoCo XML)
+#     # Order (22): Head(2), Left Arm(4), Right Arm(4), Left Leg(6), Right Leg(6)
+#     #   Head: AAHead_yaw, Head_pitch
+#     #   Left Arm: ALeft_Shoulder_Pitch, Left_Shoulder_Roll, Left_Elbow_Pitch, Left_Elbow_Yaw
+#     #   Right Arm: ARight_Shoulder_Pitch, Right_Shoulder_Roll, Right_Elbow_Pitch, Right_Elbow_Yaw
+#     #   Left Leg: Left_Hip_Pitch, Left_Hip_Roll, Left_Hip_Yaw, Left_Knee_Pitch, Left_Ankle_Pitch, Left_Ankle_Roll
+#     #   Right Leg: Right_Hip_Pitch, Right_Hip_Roll, Right_Hip_Yaw, Right_Knee_Pitch, Right_Ankle_Pitch, Right_Ankle_Roll
+#     kp: [
+#       40.0, 40.0,  # Head
+#       40.0, 40.0, 40.0, 40.0,  # Left Arm
+#       40.0, 40.0, 40.0, 40.0,  # Right Arm
+#       40.0, 40.0, 40.0, 40.0, 40.0, 40.0,  # Left Leg
+#       40.0, 40.0, 40.0, 40.0, 40.0, 40.0,  # Right Leg
+#     ]
+#     kd: [
+#       3.0, 3.0,  # Head
+#       3.0, 3.0, 3.0, 3.0,  # Left Arm
+#       3.0, 3.0, 3.0, 3.0,  # Right Arm
+#       3.0, 3.0, 3.0, 3.0, 3.0, 3.0,  # Left Leg
+#       3.0, 3.0, 3.0, 3.0, 3.0, 3.0,  # Right Leg
+#     ]

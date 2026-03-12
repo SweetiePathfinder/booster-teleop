@@ -1,0 +1,63 @@
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /home/pathfinder/anaconda3/envs/robot_deploy/bin/python3 (found version "3.10.19") found components: Interpreter 
+-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for C++ include pthread.h
+-- Looking for C++ include pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found booster_interface: 0.0.0 (/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_interface/share/booster_interface/cmake)
+-- Configuring done
+[33mCMake Warning at CMakeLists.txt:26 (add_executable):
+  Cannot generate a safe runtime search path for target
+  booster_rl_control_node because files in some directories may conflict with
+  libraries in implicit directories:
+
+    runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/pathfinder/anaconda3/envs/robot_deploy/lib
+
+  Some of these libraries may not be found correctly.
+
+[0m
+-- Generating done
+-- Build files have been written to: /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/build/booster_controller
+[ 50%] [32mBuilding CXX object CMakeFiles/booster_rl_control_node.dir/src/control_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable booster_rl_control_node[0m
+[100%] Built target booster_rl_control_node
+-- Install configuration: ""
+-- Installing: /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_controller/lib/booster_controller/booster_rl_control_node
+-- Set runtime path of "/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_controller/lib/booster_controller/booster_rl_control_node" to ""
+-- Installing: /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_controller/share/booster_controller/config
+-- Installing: /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_controller/share/booster_controller/config/mimic_control.yaml
+-- Installing: /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_controller/share/booster_controller/config/rl_control_params.yaml
+-- Installing: /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_controller/share/ament_index/resource_index/package_run_dependencies/booster_controller
+-- Installing: /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_controller/share/ament_index/resource_index/parent_prefix_path/booster_controller
+-- Installing: /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_controller/share/booster_controller/environment/ament_prefix_path.sh
+-- Installing: /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_controller/share/booster_controller/environment/ament_prefix_path.dsv
+-- Installing: /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_controller/share/booster_controller/environment/path.sh
+-- Installing: /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_controller/share/booster_controller/environment/path.dsv
+-- Installing: /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_controller/share/booster_controller/local_setup.bash
+-- Installing: /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_controller/share/booster_controller/local_setup.sh
+-- Installing: /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_controller/share/booster_controller/local_setup.zsh
+-- Installing: /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_controller/share/booster_controller/local_setup.dsv
+-- Installing: /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_controller/share/booster_controller/package.dsv
+-- Installing: /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_controller/share/ament_index/resource_index/packages/booster_controller
+-- Installing: /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_controller/share/booster_controller/cmake/booster_controllerConfig.cmake
+-- Installing: /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_controller/share/booster_controller/cmake/booster_controllerConfig-version.cmake
+-- Installing: /home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/install/booster_controller/share/booster_controller/package.xml

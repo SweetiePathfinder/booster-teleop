@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-0b4af776cbb956820655.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "booster_controller",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "booster_controller_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-booster_controller_uninstall-bfb19d6813a6718c7ef4.json",
+					"name" : "booster_controller_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "booster_rl_control_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-booster_rl_control_node-a6e91245fd50e401040d.json",
+					"name" : "booster_rl_control_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-19a10d47e26dc634b7f0.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/build/booster_controller",
+		"source" : "/home/pathfinder/Projects/Starkit/booster_teleop/robot_deploy_fork_ws/src/robot_launcher_gucci/booster_controller"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

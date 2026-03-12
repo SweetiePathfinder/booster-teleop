@@ -1,0 +1,26 @@
+squat_agent_node:
+  ros__parameters:
+    # Model path (relative to booster_policies package share directory)
+    model_path: "squat_1600.onnx"
+    # Trajectory path (relative to booster_policies package share directory)
+    trajectory_path: "trajectories/squat.json"
+    # Default joint positions
+    default_joints: [0.0, 0.0,
+                     0.2, -1., 0.0, -0.5,
+                     0.2, 1., 0.0, 0.5,
+                     -0.1, 0.0, 0.0, 0.2, -0.1, 0.0,
+                     -0.1, 0.0, 0.0, 0.2, -0.1, 0.0]
+    obs_dim: 72
+    # Control frequency (Hz)
+    control_frequency: 50.0
+    # Number of degrees of freedom
+    n_dofs: 22
+    # Number of DOFs in trajectory (excluding head)
+    traj_dofs: 6
+    # Observation scaling factors
+    scale_actions: 1.0
+    scale_gravity: 1.0
+    scale_ang_vel: 1.0
+    scale_dof_pos: 1.0
+    scale_dof_vel: 0.1
+
