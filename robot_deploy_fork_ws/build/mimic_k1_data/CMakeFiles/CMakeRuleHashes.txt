@@ -1,2 +1,0 @@
-# Hashes of file build rules.
-417eabf8868cd23fd46b1427e80b32bd CMakeFiles/mimic_k1_data_uninstall

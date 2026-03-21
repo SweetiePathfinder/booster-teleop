@@ -8,4 +8,6 @@ dependencies:
       - opencv-python
       - mediapipe
       - numpy
-
+      - catkin_pkg
+      - empy==3.3.4
+      - lark
