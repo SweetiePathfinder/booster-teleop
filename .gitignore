@@ -1,1 +1,4 @@
 models/
+robot_deploy_fork_ws/build**
+robot_deploy_fork_ws/install**
+robot_deploy_fork_ws/log**
